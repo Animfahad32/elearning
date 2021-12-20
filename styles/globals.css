@@ -14,38 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+input:focus {
+  outline: none;
+}
+.hero-input {
+  padding: 20px;
+  border-radius: 30px 0px 0px 30px;
+  border: 1px solid transparent;
+  box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+}
 .not-found {
   text-align: center;
 }
-.heroBtn {
-  padding: 16px;
-  background: #f1a501;
-  border-radius: 30px;
-  left: -25px;
-}
-.heroBtn:hover {
-  background: #f1a501;
-}
-.MuiOutlinedInput-root {
-  border-radius: 30px 0px 0px 30px !important;
-  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
-    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
-}
+
 .cta {
   display: flex;
   align-items: center;
 }
-.signinBtn {
-  color: #f1a501;
-}
-.signupBtn {
-  background: #f1a501;
-  color: #fff;
-  border-radius: 20px;
-}
-.signupBtn:hover {
-  color: #000;
-}
+
 .footer {
   background: #fafbff;
   padding: 50px;

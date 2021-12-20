@@ -1,4 +1,4 @@
-import { Button, Container, Grid, TextField, Typography } from "@mui/material";
+import { Button, Container, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 
 const Hero = () => {
@@ -12,9 +12,8 @@ const Hero = () => {
                     <div>
                         <Typography variant="h2">An excellence <br /> center for education</Typography>
                         <p style={{color: '#7c7f87'}} >Besnik is the online learning platform that offers <br /> various courses for your development</p>
-                        <TextField id="outlined-basic" label="Outlined" variant="outlined"
-                        className="hero-input" />
-                        <Button variant="contained" className="heroBtn">Get Started</Button>
+                        <input type="text" className="hero-input" />
+                        <Button variant="contained" style={{padding: '16px', background: '#f1a501', borderRadius: '30px', left: '-25px'}}>Get Started</Button>
 
                     </div>
                 </Grid>

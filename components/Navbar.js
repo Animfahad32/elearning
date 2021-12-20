@@ -18,8 +18,8 @@ const Navbar = () => {
                 <Link href="/Contact"><Button color="inherit" sx={{ fontWeight: 'bold' }}>Contact us</Button></Link>
                 </Grid>
                 <Grid sm={2}>  
-                <Button sx={{ fontWeight: 'bold' }} className="signinBtn" >Login</Button>
-                <Button sx={{ fontWeight: 'bold' }} className="signupBtn">Sign Up</Button>
+                <Button style={{ fontWeight: 'bold', color: '#f1a501' }}  >Login</Button>
+                <Button style={{ fontWeight: 'bold',background: '#f1a501', color: '#fff', borderRadius: '20px' }} className="signupBtn">Sign Up</Button>
                 
                 </Grid>
             </Toolbar>
