@@ -1,6 +1,5 @@
 import { AppBar, Button, Container, Grid, Toolbar } from "@mui/material";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
 const Navbar = () => {
     return (
       <div>
@@ -19,8 +18,8 @@ const Navbar = () => {
                 <Link href="/Contact"><Button color="inherit" sx={{ fontWeight: 'bold' }}>Contact us</Button></Link>
                 </Grid>
                 <Grid sm={2}>  
-                <Button sx={{ fontWeight: 'bold' }} className={styles.signinBtn} >Login</Button>
-                <Button sx={{ fontWeight: 'bold' }} className={styles.signupBtn}>Sign Up</Button>
+                <Button sx={{ fontWeight: 'bold' }} className="signinBtn" >Login</Button>
+                <Button sx={{ fontWeight: 'bold' }} className="signupBtn">Sign Up</Button>
                 
                 </Grid>
             </Toolbar>

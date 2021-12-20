@@ -14,7 +14,7 @@ const Hero = () => {
                         <p style={{color: '#7c7f87'}} >Besnik is the online learning platform that offers <br /> various courses for your development</p>
                         <TextField id="outlined-basic" label="Outlined" variant="outlined"
                         className="hero-input" />
-                        <Button variant="contained" className="heroBtn">Contained</Button>
+                        <Button variant="contained" className="heroBtn">Get Started</Button>
 
                     </div>
                 </Grid>

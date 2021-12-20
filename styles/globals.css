@@ -35,3 +35,22 @@ a {
   display: flex;
   align-items: center;
 }
+.signinBtn {
+  color: #f1a501;
+}
+.signupBtn {
+  background: #f1a501;
+  color: #fff;
+  border-radius: 20px;
+}
+.signupBtn:hover {
+  color: #000;
+}
+.footer {
+  background: #fafbff;
+  padding: 50px;
+}
+.footerLinks a {
+  display: flex;
+  padding: 5px 0px 5px 0px;
+}
